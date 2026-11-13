@@ -1,11 +1,6 @@
-import React from "react";
-import { createRoot } from "react-dom/client";
-import "boxicons/css/boxicons.min.css";
-import "./style.css";
-import App from "./App.jsx";
-
-createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-);
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import 'boxicons/css/boxicons.min.css';
+import './style.css';
+import App from './App';
+ReactDOM.createRoot(document.getElementById('root')).render(<React.StrictMode><App /></React.StrictMode>);
